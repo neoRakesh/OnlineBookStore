@@ -75,6 +75,8 @@ exports.postEditProduct = (req, res, next) => {
 };
 
 exports.getProducts = (req, res, next) => {
+  console.log("Reached product");
+
   Product.fetchAll()
     .then(products => {
       res.render('admin/products', {
