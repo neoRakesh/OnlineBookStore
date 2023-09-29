@@ -30,18 +30,4 @@ const getDb = () => {
 exports.mongoConnect = mongoConnect;
 exports.getDb = getDb;
 
-// const mongoConnect =(callback) =>{
 
-//   MongoClient.connect(
-//     'mongodb+srv://rakeshprasadyaday:sXmmjMBxMLHJja19@cluster0.89hm7c7.mongodb.net/shop?retryWrites=true&w=majority'
-//   )
-//   .then(client =>{
-//     console.log('Connected !');
-//     callback(client);
-//   })
-//   .catch(err =>{
-//     console.log(err);
-//   })
-// }
-
-// module.exports= mongoConnect;
