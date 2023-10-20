@@ -19,6 +19,13 @@ form {
   display: inline;
 }
 
+.login-form{
+  width:20rem;
+  max-width: 90%;
+  margin:auto;
+  display: block;
+}
+
 .price{
   color:red;
   font-size: 15px;
