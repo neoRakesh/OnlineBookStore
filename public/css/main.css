@@ -37,7 +37,9 @@ form {
   background-color: #00695c;
   padding: 0 1.5rem;
   display: flex;
-  align-items: center;
+  align-items: center; 
+  z-index:10;
+ 
 }
 
 .main-header__nav {
@@ -151,6 +153,7 @@ form {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
+  
 }
 
 .card {
